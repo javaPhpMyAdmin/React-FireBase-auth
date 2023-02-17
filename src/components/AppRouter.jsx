@@ -18,7 +18,7 @@ import {
 
 export function AppRouter() {
    //const homePageTest = ''
-   const homePageProduction = '/react-project-test';
+   const homePageProduction = '';
    return (
       <>
          <Router>
