@@ -1,14 +1,17 @@
-import { Container, Heading, Text } from '@chakra-ui/react'
-import React from 'react'
-import { Layout } from '../components/Layout'
+import { Container, Heading, Text } from '@chakra-ui/react';
+import React from 'react';
+import { Layout } from '../components';
 
 export default function TestPage() {
-  return (
-    <Layout>
-      <Heading>TEST PAGE</Heading>
-      <Container maxW='container.lg' py={4}>
-        <Text>Only for showing how REDIRECTS WORK, i.e. REDIRECT TO or BACK</Text>
-      </Container>
-    </Layout>
-  )
+   return (
+      <Layout>
+         <Heading>PROTECTED PAGE</Heading>
+         <Container maxW="container.lg" py={4}>
+            <Text>THIS PAGE IS:</Text>
+            <Text>
+               Only for showing how REDIRECTS WORK, i.e. REDIRECT TO or BACK
+            </Text>
+         </Container>
+      </Layout>
+   );
 }
